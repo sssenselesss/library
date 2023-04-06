@@ -1,0 +1,763 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.h2-title {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 60px;
+}
+.tac{
+    text-align: center;
+}
+.mt60{
+    margin-top: 60px;
+}
+.mb60{
+    margin-bottom: 60px;
+}
+.mt90{
+    margin-top: 90px;
+}
+body {
+    font-family: Inter;
+}
+
+.header {
+    padding: 20px 0px;
+    background-color: #4C7EB9;
+}
+
+.header-wrapper {
+    margin: 0 auto;
+    max-width: 1600px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    color: white;
+    padding: 0px 16px;
+}
+
+.header-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 32px;
+    gap: 10px;
+}
+
+.header-nav {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.header-icons {
+    display: flex;
+    gap: 20px;
+}
+
+.icons-group {
+    display: flex;
+    flex-direction: column;
+
+
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.icon {
+    font-size: 24px;
+}
+
+.main-banner {
+    margin-top: 90px;
+}
+
+.main-banner .wrapper {
+    margin: 0 auto;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: row;
+    gap: 65px;
+}
+
+.swiper {
+    max-width: 835px;
+    height: 400px;
+    background-color: #475967;
+    border-radius: 4px;
+}
+
+.swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background: #fff !important;
+    color: white;
+    fill: white;
+}
+
+.swiper-pagination-bullet-active {
+    background: #4C7EB9 !important;
+}
+
+.swiper-slide {
+    padding: 45px 50px;
+
+    display: flex !important;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.swiper-image {
+    width: 195px;
+
+    height: 310px;
+}
+
+.swiper-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-slide__content {
+    max-width: 500px;
+    color: white;
+}
+
+.content-title {
+    font-size: 24px;
+    margin-bottom: 12px;
+    font-weight: 600;
+}
+
+.content-author {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 12px;
+
+}
+
+.content-disc {
+    font-weight: 400;
+}
+
+.banner-categories {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.category-item {
+    display: block;
+    width: 20vw;
+
+
+    height: 110px;
+    border: 2px solid #7ca9dd49;
+    border-radius: 4px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3vw;
+    transition: 0.3s ease-in-out;
+}
+
+.category-item:hover {
+    background-color: #7CA9DD;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.main-books__new {
+    margin: 0 auto;
+    margin-top: 90px;
+
+    max-width: 1300px;
+    padding: 0px 16px;
+}
+
+.main-books__new .wrapper {
+    margin-top: 40px;
+
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 56px;
+
+
+}
+
+
+.book-item {
+    display: flex;
+    flex-direction: column;
+
+    max-width: 215px;
+    overflow: hidden;
+}
+
+.book-image {
+    width: 215px;
+    height: 315px;
+}
+
+.book-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.book-title {
+    margin-top: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.book-author {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.book-more {
+
+    border: 1px solid #7ca9dd56;
+    border-radius: 4px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    transition: 0.3s ease-in-out;
+}
+
+.book-more:hover {
+    background-color: #4C7EB9;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+.subscription {
+    margin-top: 90px;
+
+}
+
+.subscription h2 {
+
+    font-weight: 700;
+    font-size: 32px;
+
+    text-align: center;
+
+
+}
+
+.subscription .wrapper {
+    margin: 0 auto;
+    max-width: 1200px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 16px;
+}
+
+.wrapper h4 {
+
+    font-weight: 400;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.subscription-form {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.subscription-form input {
+    width: 440px;
+    height: 40px;
+    border-radius: 4px;
+    padding: 5px 20px;
+    border: 1px solid #9f9f9f;
+}
+
+.subscription-form input::placeholder {
+    font-size: 15px;
+    color: #9f9f9f;
+}
+
+.subscription-form button {
+    width: 180px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #4C7EB9;
+    outline: none;
+    font-weight: 400;
+    font-size: 16px;
+
+
+    color: #FFFFFF;
+    border: none;
+
+}
+
+.oferta {
+    margin-top: 36px;
+    text-align: center;
+    width: 500px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #000000;
+}
+
+footer {
+    margin-top: 200px;
+    background: rgba(76, 126, 185, 0.5);
+    width: 100%;
+    padding: 100px 0px;
+}
+
+/* Страница одной книги */
+.singleBook {
+    margin-top: 90px;
+}
+
+.singleBook-mainInfo {
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+
+    padding: 0px 16px;
+}
+
+.single-image {
+    width: 410px;
+
+    height: 600px;
+}
+
+.single-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.single-info {
+
+    display: flex;
+    flex-direction: column;
+}
+.single-title{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.single-author{
+    font-size: 20px;
+    font-weight: 400;
+}
+.single-book__info{
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+}
+
+.single-buttons{
+    display: flex;
+    gap: 10px;
+}
+.admin-btns{
+    margin-top: 10px;
+}
+.button{
+    max-width: 220px;
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    background-color: #4C7EB9;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+}
+
+.save{
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+
+    background-color: #4C7EB9;
+}
+.delete{
+    background-color: #A84B4B;
+}
+
+.singleBook-discription{
+    margin: 0 auto;
+    margin-top: 60px;
+    max-width: 1100px;
+    font-size: 20px;
+
+    padding: 0px 16px;
+    text-align: justify;
+}
+.similar-books{
+    margin: 0 auto;
+    max-width: 1100px;
+    padding: 0 16px;
+    margin-top: 60px;
+}
+.similar-books .wrapper{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+/* Избранное */
+
+.favorite{
+    min-height: 60vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 16px;
+}
+
+.favorite-empty{
+    margin: 0 auto;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.favorite-icon__empty{
+    font-size: 42px;
+}
+.favorite-title{
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 30px;
+}
+.favorite-subtitle{
+    font-size: 16px;
+    margin-top: 12px;
+}
+.favorite-button{
+    margin-top: 30px;
+    width: 240px;
+    height: 40px;
+    border-radius: 4px;
+
+    background-color: #4C7EB9;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.favoriteNoEmpty{
+    margin: 0 auto;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+
+    max-width: 1300px;
+
+    padding: 0 16px;
+}
+.favoriteNoEmpty .wrapper{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap: 40px;
+
+
+}
+
+/* Панель администратора */
+.admin{
+    margin-top: 90px;
+    padding: 0 26px;
+}
+.h2-admin{
+    margin: 0 auto;
+    text-align: center;
+}
+.admin-menu{
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    max-width: 780px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.admin-menu__item.active{
+    color: #4C7EB9;
+}
+
+.admin-menu__user{
+    margin: 0 auto;
+    margin-top: 30px;
+
+    max-width: 1000px;
+    overflow: scroll;
+    display: flex;
+    justify-content: center;
+
+}
+ table{
+    overflow: scroll;
+ }
+tbody{
+
+}
+td{
+  padding: 10px;
+}
+
+.admin-menu__addBook{
+    margin-top: 30px;
+}
+.admin-addBook__form{
+    margin: 0 auto;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.add-input{
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #4c7fb96c   ;
+    padding: 10px;
+    color: #bfbfbf7a;
+}
+.add-input:placeholder-shown{
+   color: #e2e2e27a;
+
+}
+.add-text{
+    border-radius: 4px;
+    border: 1px solid #4c7fb96c   ;
+    padding: 10px;
+}
+.attach-file{
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #4c7fb96c   ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #BFBFBF;
+}
+.input-file{
+    display: none;
+
+}
+.form-btn{
+
+    background-color: #4C7EB9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.add-cat__form{
+    gap: 30px;
+    margin-top: 90px;
+}
+.h3-title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+.edit-book{
+    margin-top: 90px;
+}
+.edit-book .wrapper{
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+
+/*Страница регитсрации*/
+
+.registration_auth{
+    margin-top: 90px;
+}
+.registration_auth .wrapper{
+    margin: 0 auto;
+    max-width: 1100px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+
+.reg-auth__container{
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 400px;
+}
+.reg-auth__container form{
+   width: 400px;
+}
+.reg-input{
+  width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid rgba(76, 126, 185, 0.36);
+
+    outline: none;
+
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.reg-button{
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    border: none;
+    background-color: #4C7EB9;
+
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.line{
+    height: 800px;
+    background-color: rgba(76, 126, 185, 0.36);
+
+    width: 2px;
+}
+
+/*Каталог*/
+
+.catalog{
+    margin-top: 90px;
+}
+.catalog .wrapper{
+    margin: 0 auto;
+    max-width: 1300px;
+}
+.catalog-container{
+    display: flex;
+    gap: 50px;
+}
+
+.catalog-categories{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.categories-title{
+    font-size: 24px;
+    font-weight: 600;
+}
+.all-categories{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    font-size: 16px;
+
+    max-width: 250px;
+}
+.count-books{
+    color: #B9B3B3;
+}
+.catalog-books{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px;
+}
+.errors{
+    display: flex;
+    flex-direction: column;
+}
+.error{
+    text-align: left;
+    margin-top: -15px;
+    margin-bottom: 20px;
+    color: tomato;
+}
+input{
+    color: black!important;
+}
+select{
+    color: black!important;
+}
+textarea{
+    color: black!important;
+}
+.unsave{
+    color: tomato;
+}

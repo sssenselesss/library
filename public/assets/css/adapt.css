@@ -1,0 +1,291 @@
+@media(max-width:1200px){
+    .main-books__new .wrapper {
+        margin-top: 40px;
+    
+        display: flex;
+        flex-wrap: wrap;
+    justify-content:center;
+        gap: 20px;
+     
+    
+    }
+    .book-image {
+        width: 175px;
+        height: 265px;
+    }
+    .book-more{
+        width: 175px;
+    }
+}
+@media(max-width:992px){
+    .swiper-image {
+       display: none;
+    }
+    .content-title {
+        font-size: 20px;
+        margin-bottom: 6px;
+     
+    }
+    
+    .content-author {
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    .content-disc {
+        font-size: 14px;
+    }
+
+
+    .single-image {
+        width: 310px;
+     
+        height: 500px;
+    }
+    
+    .single-title{
+        font-size: 24px;
+      
+    }
+    .single-author{
+        font-size: 16px;
+   
+    }
+    .single-book__info{
+        font-size: 16px;
+    }
+    
+ 
+    .button{
+        max-width: 220px;
+        width: 100%;
+        height: 30px;
+      
+    }
+    
+    .save{
+        border-radius: 4px;
+        width: 30px;
+        height: 30px;
+        font-size: 14px;
+    
+    }
+}
+
+@media(max-width:768px) {
+    .header-nav {
+        font-size: 16px;
+    }
+
+    .header-logo {
+        font-size: 24px;
+    }
+
+    .icons-group {
+
+        font-size: 14px;
+    }
+
+    .icon {
+        font-size: 20px;
+    }
+    .book-image {
+        width: 145px;
+        height: 225px;
+    }
+    .book-more{
+        width: 145px;
+    }
+    .book-title {
+        margin-top: 6px;
+        font-size: 14px;
+        margin-bottom: 6px;
+    }
+    .book-author{
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+    .book-more{
+
+        font-size: 12px;
+    }
+
+    .subscription h2 {
+        font-size: 24px;
+    }
+
+    .wrapper h4 {
+        font-size: 16px;
+        margin-top: 10px;
+     
+    }
+    .subscription-form input {
+        width: 340px;
+        height: 40px;
+    }
+    
+    .subscription-form button {
+        width: 130px;
+        height: 40px;
+        font-size: 14px;
+    }
+    
+    .oferta {
+        width: 300px;
+        font-size: 14px;
+    }
+    .admin-menu{
+        font-size: 16px;
+    }
+    table{
+        font-size: 14px;
+    }
+    .h2-admin{
+        font-size: 24px;
+    }
+}
+
+@media(max-width:576px) {
+
+    .main-banner .wrapper {
+        margin: 0 auto;
+        max-width: 1300px;
+        display: flex;
+        flex-direction: row;
+        gap: 25px;
+    }
+      .header-nav {
+        gap: 14px;
+        font-size: 14px;
+    }
+
+    .header-logo {
+        font-size: 20px;
+    }
+
+    .icons-group {
+
+        font-size: 12px;
+    }
+
+    .icon {
+        font-size: 16px;
+    }
+
+    .content-title {
+        font-size: 16px;
+        margin-bottom: 6px;
+     
+    }
+    
+    .content-author {
+        font-size: 12px;
+        margin-bottom: 6px;
+    }
+    .content-disc {
+        font-size: 10px;
+    }
+
+    .book-image {
+        width: 125px;
+        height: 205px;
+    }
+    .book-more{
+        width: 125px;
+    }
+
+    .subscription h2 {
+        font-size: 20px;
+    }
+
+    .wrapper h4 {
+        font-size: 14px;
+        margin-top: 10px;
+     
+    }
+    .subscription-form input {
+        width: 220px;
+        height: 30px;
+    }
+    
+    .subscription-form button {
+        width: 80px;
+        height: 30px;
+        font-size: 10px;
+    }
+    
+    .oferta {
+        width: 240px;
+        font-size: 14px;
+    }
+
+
+    .singleBook-mainInfo {
+ 
+        gap: 20px;
+    
+    
+    }
+    .single-image {
+        width: 210px;
+     
+        height: 320px;
+    }
+    
+    .single-title{
+        font-size: 16px;
+      
+    }
+    .single-author{
+        font-size: 12px;
+   
+    }
+    .single-book__info{
+        font-size: 12px;
+    }
+    
+ 
+    .button{
+        max-width: 220px;
+        width: 100%;
+        height: 24px;
+        font-size: 12px;
+      
+    }
+    
+    .save{
+        border-radius: 4px;
+        width: 24px;
+        height: 24px;
+        font-size: 10px;
+    
+    }
+    .singleBook-discription{
+        font-size: 14px;
+    }
+
+    .favorite-icon__empty{
+        font-size: 32px;
+    }
+    .favorite-title{
+        font-size: 24px;
+      
+    }
+    .favorite-subtitle{
+        font-size: 14px;
+     
+    }
+    .favorite-button{
+        margin-top: 30px;
+        width: 160px;
+        height: 30px;
+        border-radius: 4px;
+        font-size: 14px;
+    
+      
+    
+    }
+
+     .admin-menu{
+        font-size: 14px;
+    }
+}
