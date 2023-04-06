@@ -11,7 +11,7 @@
                     <div class="all-categories">
 
                         <a href="{{route('catalog')}}" class="all-categories__item">Все категории
-                            <span class="count-books">12312</span>
+
                         </a>
                         @foreach($categories as $categ)
                             <a href="{{route('booksCategory',$categ->id)}}" class="all-categories__item">{{$categ->name}}

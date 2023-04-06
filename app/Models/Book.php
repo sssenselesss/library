@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Storage;
 
 class Book extends Model
 {
+    use HasFactory;
     protected $fillable = [
         'title',
         'author',
@@ -30,5 +31,5 @@ class Book extends Model
     {
         return asset(  Storage::url($this->file_path));
     }
-    use HasFactory;
+
 }

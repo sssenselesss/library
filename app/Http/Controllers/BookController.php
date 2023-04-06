@@ -6,6 +6,7 @@ use App\Models\Book;
 use App\Models\Category;
 use App\Models\Favorite;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Validator;
 
 class BookController extends Controller
@@ -49,8 +50,15 @@ class BookController extends Controller
 
     public function show($id)
     {
-        $user_id = auth()->user()->id;
-        $favBook = Favorite::query()->where('user_id','=',$user_id)->where('book_id','=',$id)->get();
+        $favBook = [];
+        if(Auth::check()){
+            $user_id = auth()->user()->id;
+            $favBook = Favorite::query()->where('user_id','=',$user_id)->where('book_id','=',$id)->get();
+
+        }
+
+
+
 
 
         $book = Book::query()->find($id);

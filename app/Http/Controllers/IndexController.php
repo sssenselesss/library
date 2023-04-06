@@ -45,7 +45,10 @@ class IndexController extends Controller
 
     public function favorite()
     {
-        $userId = auth()->user()->id;
+        if(Auth::check()){
+            $userId = auth()->user()->id;
+        }
+
         $favs = DB::table('books AS book')
             ->join('favorites AS fav', 'book.id', '=', 'fav.book_id')
             ->select(['book.id','book.title','book.author','book.image'])
