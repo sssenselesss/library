@@ -15,7 +15,7 @@
                         </a>
                         @foreach($categories as $categ)
                             <a href="{{route('booksCategory',$categ->id)}}" class="all-categories__item">{{$categ->name}}
-                                <span class="count-books">12312</span>
+
                             </a>
                         @endforeach
 

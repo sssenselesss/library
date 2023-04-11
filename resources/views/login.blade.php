@@ -9,7 +9,7 @@
                     @csrf
                     <input type="text" class="reg-input" placeholder="email" name="email">
                     <p class="error">  @error('email'){{$message}}@enderror</p>
-                    <input type="text" class="reg-input" placeholder="Пароль" name="password">
+                    <input type="password" class="reg-input" placeholder="Пароль" name="password">
                     <p class="error">  @error('password'){{$message}}@enderror</p>
                     <p>@error(''){{$message}}@enderror</p>
                     <button class="reg-button">Войти</button>
@@ -29,9 +29,9 @@
                     <p class="error">  @error('name'){{$message}}@enderror</p>
                     <input type="text" class="reg-input" placeholder="Ваш email" name="email">
                     <p class="error">  @error('email'){{$message}}@enderror</p>
-                    <input type="text" class="reg-input" placeholder="Пароль" name="pass">
+                    <input type="password" class="reg-input" placeholder="Пароль" name="pass">
                     <p class="error">  @error('pass'){{$message}}@enderror</p>
-                    <input type="text" class="reg-input" placeholder="Повторите пароль" name="re_pass">
+                    <input type="password" class="reg-input" placeholder="Повторите пароль" name="re_pass">
                     <p class="error">  @error('re_pass'){{$message}}@enderror</p>
                     <input type="submit" class="reg-button" value="Регистрация"></input>
                 </form>
